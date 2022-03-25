@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.earth--logo {
+  margin: auto 0px auto auto;
+  font-size: medium;
+  color: #ffffff;
+}
+
+.nav-bar--title {
+  margin: auto auto auto 3px;
+  display: inline;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+}
+
+nav {
+  font-family: 'Inter', sans-serif;
+  background-color: #F55A5A;
+  text-align: center;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.content-box {
+  font-family: 'Inter', sans-serif;
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.content-box--image {
+  width: 126px;
+  height: 168px;
+  object-fit: cover;
+  /* margin: 10px; */
+  border-radius: 5px;
+}
+
+.content-box--content {
+  display: flex;
+  flex-direction: column;
+  margin: auto 20px;
+}
+
+.content-location {
+  display: flex;
+  flex-direction: row;
+}
+
+.location-icon {
+  color: #F55A5A;
+}
+
+.location {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+}
+
+.google-map-link {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+  margin-left: 10px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
+  margin: 0;
+}
+
+.date {
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+
+  color: #2B283A;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+
+
+  color: #2B283A;
+}
